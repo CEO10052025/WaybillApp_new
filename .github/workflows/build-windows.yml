@@ -29,8 +29,8 @@ jobs:
             --add-data "assets;assets" \
             src/main.py
 
-      - name: Upload EXE artifact
-        uses: actions/upload-artifact@v3
+            - name: Upload EXE artifact
+        uses: actions/upload-artifact@v2
         with:
           name: WaybillApp-exe
           path: dist/WaybillApp.exe
